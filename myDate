@@ -1,0 +1,31 @@
+
+
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+public class MyDate extends Thread{
+  
+/* Command:
+           date
+          
+ Action:
+           the current date is displayed.
+ 
+ */
+
+ public void run(){
+	 
+	 // the cur_date object is created using the Date class
+	 Date cur_date = new Date();
+     
+     //SimpleDateFormat can be used to control the date/time display format:
+     // E (day of week): 3E or fewer (in text xxx), >3E (in full text)
+     //   M (month): M (in number), MM (in number with leading zero)
+      
+	 SimpleDateFormat dateFormatter = new SimpleDateFormat("EEEE, MMMM d, yyyy"); 
+	    
+	 // prints the current date while passing the cur_date obj from Date class to the dateFormater.format
+	 System.out.println("current Date: " + dateFormatter.format(cur_date)); 
+}
+
+}
