@@ -1,7 +1,5 @@
 # Java_Shell_Using_Thread
 
-# Java_Shell_Program
-
 <b>Project Introduction:</b>
 <p>This program is an Extension of interactive shell application implemented using Threads in Java language. The accomplishment is to provide a user a command promt and prompt the user for a operating system commands such as: attrib, copy, delete, dir, execute, main, mkdir, date, time, edit, rename, rmdir. This is same output like my @Java_Shell_Program but the only variation is this interactive shell program is implemented using Java Threads i.e each class is implemented using threads.</p></br>
 <b>Implementation Of Each Class:</b></br>
